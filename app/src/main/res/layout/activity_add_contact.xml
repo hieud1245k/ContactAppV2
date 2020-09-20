@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddContactActivity">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_baseline_person_add_24"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/et_fullNameAdd"
+        android:layout_marginTop="32dp"
+        android:drawableStart="@drawable/ic_baseline_perm_identity_24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="\tFull name"/>
+
+    <EditText
+        android:id="@+id/et_mobilePhoneAdd"
+        android:layout_width="match_parent"
+        android:drawableStart="@drawable/ic_baseline_call_24"
+        android:layout_height="wrap_content"
+        android:hint="\tMoblie phone"/>
+
+    <EditText
+        android:id="@+id/et_emailAdd"
+        android:layout_width="match_parent"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:layout_height="wrap_content"
+        android:hint="\tEmail"/>
+
+</LinearLayout>
